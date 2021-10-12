@@ -1,6 +1,7 @@
 # database-ospina
  
 ### Orden de ejecución los scripts 🔧
+
 *  /scripts/structure.sql
 *  /scripts/brands.sql
 *  /scripts/categories.sql
@@ -14,7 +15,7 @@
 
 ### Luego se pueden ejecutar las consultas en cualquier orden 📋
 
-*  /solutions/parte_1.sql
-*  /solutions/parte_2.sql
-*  /solutions/parte_3.sql
-*  /solutions/parte_4.sql
+*  /taller/parte_1.sql
+*  /taller/parte_2.sql
+*  /taller/parte_3.sql
+*  /taller/parte_4.sql
