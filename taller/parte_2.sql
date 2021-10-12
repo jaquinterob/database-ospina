@@ -2,13 +2,13 @@
 SELECT order_date, COUNT(*) AS 'orders_count' 
 FROM orders
 GROUP BY order_date
-ORDER by 1
+ORDER BY 1
 
 --2
 SELECT a.order_date, SUM(B.list_price) AS 'price_order_day' 
 FROM orders a, order_items b  
 where  a.order_id = b.order_id
-group by a.order_date
+group BY a.order_date
 ORDER BY 1
 
 --3
