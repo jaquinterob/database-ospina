@@ -1,6 +1,6 @@
 # database-ospina
  
-### Orden de ejecución los scripts 🔧
+### Orden de ejecución de scripts 🔧
 
 *  /scripts/structure.sql
 *  /scripts/brands.sql
