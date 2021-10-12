@@ -2,8 +2,8 @@
 SELECT a.order_date, AVG(b.count_orders_by_day) as 'average'
 FROM orders a
 JOIN (SELECT order_date, COUNT(*) as 'count_orders_by_day'
-			FROM orders
-			GROUP BY order_date ) b
+      FROM orders
+      GROUP BY order_date ) b
 ON a.order_date = b.order_date
 GROUP BY a.order_date
 order by average DESC 
